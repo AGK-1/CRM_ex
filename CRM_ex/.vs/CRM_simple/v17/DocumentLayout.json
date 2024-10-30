@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\crm_simple\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|solutionrelative:crm_simple\\models\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\crm_simple\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|solutionrelative:crm_simple\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\crm_simple\\controllers\\crmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|solutionrelative:crm_simple\\controllers\\crmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\crm_simple\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|solutionrelative:crm_simple\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\crm_simple\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|solutionrelative:crm_simple\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|c:\\users\\wikto\\onedrive\\desktop\\micro_s\\crm_simple\\crm_simple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|solutionrelative:crm_simple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\crm_simple\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35ACD3A-F9AD-4376-B742-599C7DACED8C}|CRM_simple\\CRM_simple.csproj|solutionrelative:crm_simple\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "customers.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Models\\customers.cs",
+              "RelativeDocumentMoniker": "CRM_simple\\Models\\customers.cs",
+              "ToolTip": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Models\\customers.cs",
+              "RelativeToolTip": "CRM_simple\\Models\\customers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:52:47.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrmController.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Controllers\\CrmController.cs",
+              "RelativeDocumentMoniker": "CRM_simple\\Controllers\\CrmController.cs",
+              "ToolTip": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Controllers\\CrmController.cs",
+              "RelativeToolTip": "CRM_simple\\Controllers\\CrmController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:29:24.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "users.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Models\\users.cs",
+              "RelativeDocumentMoniker": "CRM_simple\\Models\\users.cs",
+              "ToolTip": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Models\\users.cs",
+              "RelativeToolTip": "CRM_simple\\Models\\users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:45:47.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "CRM_simple\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Models\\LoginModel.cs",
+              "RelativeToolTip": "CRM_simple\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:41:55.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CRM_simple\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CRM_simple\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAmwPgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:31:48.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Program.cs",
+              "RelativeDocumentMoniker": "CRM_simple\\Program.cs",
+              "ToolTip": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\Program.cs",
+              "RelativeToolTip": "CRM_simple\\Program.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:05:34.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CRM_simple\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\wikto\\OneDrive\\Desktop\\Micro_s\\CRM_simple\\CRM_simple\\AppDbContext.cs",
+              "RelativeToolTip": "CRM_simple\\AppDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:45:58.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

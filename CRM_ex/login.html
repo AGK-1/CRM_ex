@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .login-form {
+            max-width: 300px;
+            margin: auto;
+        }
+        .login-form input, .login-form button {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <div class="login-form">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button id="loginButton">Login</button>
+    </div>
+    <a href="register.html">Or register</a>
+    <script>
+        async function login() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            const loginData = { email, password };
+
+            try {
+                const response = await fetch('https://localhost:7259/api/Auth/loginlog', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(loginData)
+                });
+
+                if (!response.ok) {
+                    throw new Error('Login failed');
+                }
+
+                const result = await response.json();
+                console.log('Login successful:', result);
+
+                // Store the token in local storage
+                localStorage.setItem('tokenkol', result.token);
+
+                // Redirect to the users page
+                window.location.href = 'index.html';  // Change to your users page filename
+            } catch (error) {
+                console.error('There has been a problem with the login operation:', error);
+                alert('Login failed. Please check your email and password.');
+            }
+        }
+
+        document.getElementById('loginButton').addEventListener('click', login);
+    </script>
+</body>
+</html>

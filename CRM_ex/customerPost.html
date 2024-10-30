@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Customer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .customer-form {
+            max-width: 300px;
+            margin: auto;
+        }
+        .customer-form input {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+        .customer-form button {
+            padding: 10px;
+            width: 100%;
+        }
+		 .error-message {
+            color: red;
+            font-size: 12px;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+<body>
+    <h1>Submit Customer</h1>
+    <div class="customer-form">
+        <input type="text" id="companyName" placeholder="Company Name" required>
+		 <span id="companyNameError" class="error-message">Company Name is required.</span>
+        <input type="text" id="contactName" placeholder="Contact Name" required>
+		<span id="contactNameError" class="error-message">Contact Name is required.</span>
+                <input type="text" id="phone" placeholder="Phone (050-750-12-99)" required pattern="^\d{3}-\d{3}-\d{2}-\d{2}$" title="Format: 050-750-12-99">
+				 <span id="phoneError" class="error-message">Phone number must be in the format 050-750-12-99.</span>
+        <button id="submitCustomerButton">Submit</button>
+    </div>
+
+    <script>
+
+
+        // Check if user is logged in by validating the token
+        const token = localStorage.getItem('tokenkol'); // Get the token from local storage
+
+        if (!token) {
+            alert('You need to log in first.');
+            window.location.href = 'login.html'; // Redirect to login page if not logged in
+        }
+
+		
+		
+        async function submitCustomer() {
+            const companyName = document.getElementById('companyName').value;
+            const contactName = document.getElementById('contactName').value;
+            const phone = document.getElementById('phone').value;
+			
+
+
+            const customerData = {
+                id: 0,  // Assuming ID is auto-generated on the server-side
+                companyName: companyName,
+                contactName: contactName,
+                phone: phone
+            };
+
+            try {
+                const response = await fetch('https://localhost:7259/api/Crm', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}` // Add token to the Authorization header
+                    },
+                    body: JSON.stringify(customerData)
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to submit customer');
+                }
+
+                const result = await response.json();
+                console.log('Customer submitted successfully:', result);
+                alert('Customer submitted successfully!'); // Inform user of success
+				 window.location.href = 'index.html'; 
+                // Optionally clear the form
+                document.querySelector('.customer-form').reset();
+            } catch (error) {
+                console.error('There has been a problem with the customer submission:', error);
+                //alert('Submission failed. Please check your input and try again.');
+            }
+        }
+
+        document.getElementById('submitCustomerButton').addEventListener('click', submitCustomer);
+		
+		document.getElementById('phone').addEventListener('input', function() {
+    let input = this.value.replace(/\D/g, ''); // Remove non-digit characters
+    let formatted = '';
+
+    // Limit to 12 digits (3-3-2-2 format)
+    if (input.length > 10) {
+        input = input.slice(0, 10);
+    }
+
+    // Formatting logic
+    if (input.length > 6) {
+        formatted += input.slice(0, 3) + '-' + input.slice(3, 6) + '-' + input.slice(6, 8);
+        if (input.length > 8) {
+            formatted += '-' + input.slice(8);
+        }
+    } else if (input.length > 3) {
+        formatted += input.slice(0, 3) + '-' + input.slice(3);
+    } else {
+        formatted = input;
+    }
+
+    this.value = formatted.trim(); // Set the formatted value
+});
+
+    </script>
+</body>
+</html>

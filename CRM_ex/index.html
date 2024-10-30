@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User and Customer List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .user-table, .customer-table {
+            max-width: 600px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+        .user-table table, .customer-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .user-table th, .customer-table th,
+        .user-table td, .customer-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        .user-table th, .customer-table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>User List</h2>
+    <div class="user-table">
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- User rows will be added here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Customer List</h2>
+    <div class="customer-table">
+        <table id="customerTable">
+            <thead>
+                <tr>
+                    <th>Company Name</th>
+                    <th>Contact Name</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Customer rows will be added here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+<a href="customerPost.html">Add new customer</a>
+<script>
+
+</script>
+	<script src="fetchUC.js"></script>
+</body>
+</html>
